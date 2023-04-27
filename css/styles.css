@@ -1,0 +1,53 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+}
+
+p {
+  text-align: center;
+}
+
+.panoramic {
+  background: url(../images/lisbonview.jpg);
+  background-size: cover;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.panoramic h1 {
+  color: #360a7c;
+  font-size: 3.5rem;
+}
+
+.panoramic p {
+  color: #360a7c;
+  font-size: 1.5rem;
+}
+
+.button {
+  background: #54c2ee;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: .8rem;
+  margin-top: 10px;
+  width: 120px;
+  text-align: center;
+}
+
+.button:hover {
+  background: #6db4cf;
+}
+
+#section-1 {
+   text-align: center;
+   padding: 5px;
+}
+
+#section-1 h1 {
+  margin-bottom: 10px;
+}
